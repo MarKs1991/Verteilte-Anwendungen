@@ -1,7 +1,5 @@
 package Aufgabe2_1_TimeService;
 
-import Aufgabe1_2_Dispatcher.DispatcherThread;
-
 public class TimeServiceMain {
 
     TimeService timeService = new TimeService();
@@ -18,10 +16,9 @@ public class TimeServiceMain {
             socketThreadArray[i].start();
             System.out.println("Active Threads:"+ Thread.activeCount());
         }*/
-       boolean running = true;
-       while(running){
+
            TimeService timeService = new TimeService();
            timeService.timeServiceAPI();
-       }
+
     }
 }
