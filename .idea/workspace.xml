@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cc4995c4-657a-493a-9ff4-443272c30921" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Verteilte Anwendungen/Aufgabe2_1_TimeService/TimeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Verteilte Anwendungen/Aufgabe2_1_TimeService/TimeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Verteilte Anwendungen/Aufgabe2_1_TimeService/TimeServiceMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Verteilte Anwendungen/Aufgabe2_1_TimeService/TimeServiceMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Verteilte Anwendungen/META-INF/Verteilte Anwendungen.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aufgabe2_1_TimeService/TimeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe2_1_TimeService/TimeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aufgabe3_2_TimeServiceMultithreaded/TimeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe3_2_TimeServiceMultithreaded/TimeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aufgabe3_2_TimeServiceMultithreaded/TimeServiceMultithreadedMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe3_2_TimeServiceMultithreaded/TimeServiceMultithreadedMain.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +180,8 @@
       <workItem from="1570831740327" duration="636000" />
       <workItem from="1570870469617" duration="1315000" />
       <workItem from="1571397322449" duration="5955000" />
-      <workItem from="1571477340838" duration="9293000" />
+      <workItem from="1571477340838" duration="9846000" />
+      <workItem from="1571487847031" duration="1852000" />
     </task>
     <servers />
   </component>
@@ -284,16 +283,6 @@
           <url>file://$PROJECT_DIR$/src/Aufgabe3_2_TimeServiceMultithreaded/TimeService.java</url>
           <line>19</line>
           <option name="timeStamp" value="105" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aufgabe3_2_TimeServiceMultithreaded/TimeServiceMultithreadedMain.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="112" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aufgabe3_2_TimeServiceMultithreaded/TimeServiceMultithreadedMain.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="115" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

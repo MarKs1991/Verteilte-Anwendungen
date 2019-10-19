@@ -55,6 +55,7 @@ public class TimeService {
                         bufferedWriter.newLine();
                         bufferedWriter.flush();
                         socket.close();
+                        break;
                     }
                 }
                 running = false;

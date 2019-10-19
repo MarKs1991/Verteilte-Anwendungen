@@ -15,12 +15,13 @@ public class TimeServiceMultithreadedMain {
             while(true){
                 counter++;
                 Socket serverClient = server.accept();
-                System.out.println("Client:" + counter + " verbunden");
+                System.out.println("Client Nummer:" + counter + " verbunden");
                 SocketThread socketThread = new SocketThread(serverClient,counter);
-
                 socketThread.start();
-
+                int ThreadCount = Thread.activeCount() - 2;
+                System.out.println("Active Server Threads " + ThreadCount);
             }
+
         }catch(Exception e) {
             System.out.println(e);
         }
