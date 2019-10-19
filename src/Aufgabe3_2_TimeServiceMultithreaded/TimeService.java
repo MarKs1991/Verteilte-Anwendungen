@@ -1,24 +1,27 @@
-package Aufgabe2_1_TimeService;
+package Aufgabe3_2_TimeServiceMultithreaded;
 
+import com.sun.security.ntlm.Server;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
 public class TimeService {
 
+    ServerSocket socket;
     private String Input = "";
 
-    public void timeServiceAPI()
+    public void timeServiceAPI(Socket socket, int counter)
     {
         boolean running = true;
 
         while(running) {
 
             try {
-                ServerSocket serverSocket = new ServerSocket(2100);
 
+                //Socket socket = serverSocket.accept();
+                boolean busy = true;
+                //SocketThread socketThread = new SocketThread(busy);
 
-                Socket socket = serverSocket.accept();
 
                 BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
                 BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
@@ -47,6 +50,7 @@ public class TimeService {
                             running
                             socket.close();*/
                     } else {
+
                         bufferedWriter.write("Abbruch der Verbindung");
                         bufferedWriter.newLine();
                         bufferedWriter.flush();

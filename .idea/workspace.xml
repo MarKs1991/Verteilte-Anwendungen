@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc4995c4-657a-493a-9ff4-443272c30921" name="Default" comment="" />
+    <list default="true" id="cc4995c4-657a-493a-9ff4-443272c30921" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Verteilte Anwendungen/Aufgabe2_1_TimeService/TimeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Verteilte Anwendungen/Aufgabe2_1_TimeService/TimeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Verteilte Anwendungen/Aufgabe2_1_TimeService/TimeServiceMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Verteilte Anwendungen/Aufgabe2_1_TimeService/TimeServiceMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Verteilte Anwendungen/META-INF/Verteilte Anwendungen.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aufgabe2_1_TimeService/TimeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe2_1_TimeService/TimeService.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Verteilte-Anwendungen" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14,6 +23,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RexCaJa1G12WF06kvJh4FNf2ns" />
   <component name="PropertiesComponent">
@@ -46,7 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TimeServiceMain">
+  <component name="RunManager" selected="Application.TimeServiceMultithreadedMain">
     <configuration name="DispatcherMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aufgabe1_2_Dispatcher.DispatcherMain" />
       <module name="Verteilte Anwendungen" />
@@ -69,6 +81,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TimeServiceClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aufgabe3_1_TimeServiceClient.TimeServiceClient" />
+      <module name="Verteilte Anwendungen" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aufgabe3_1_TimeServiceClient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TimeServiceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aufgabe2_1_TimeService.TimeServiceMain" />
       <module name="Verteilte Anwendungen" />
@@ -76,6 +102,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Aufgabe2_1_TimeService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeServiceMultithreadedMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aufgabe3_2_TimeServiceMultithreaded.TimeServiceMultithreadedMain" />
+      <module name="Verteilte Anwendungen" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aufgabe3_2_TimeServiceMultithreaded.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,6 +147,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TimeServiceMultithreadedMain" />
+        <item itemvalue="Application.TimeServiceClient" />
         <item itemvalue="Application.TimeServiceMain" />
         <item itemvalue="Application.DispatcherMain" />
         <item itemvalue="Application.Main" />
@@ -136,11 +178,29 @@
       <workItem from="1570562696681" duration="1854000" />
       <workItem from="1570564594024" duration="3908000" />
       <workItem from="1570569402398" duration="1138000" />
+      <workItem from="1570831722120" duration="9000" />
+      <workItem from="1570831740327" duration="636000" />
+      <workItem from="1570870469617" duration="1315000" />
+      <workItem from="1571397322449" duration="5955000" />
+      <workItem from="1571477340838" duration="9293000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -201,19 +261,39 @@
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aufgabe2_1_TimeService/TimeServiceMain.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="84" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Aufgabe2_1_TimeService/SocketThread.java</url>
           <line>11</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Aufgabe2_1_TimeService/TimeService.java</url>
-          <line>40</line>
+          <line>36</line>
           <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Aufgabe2_1_TimeService/TimeService.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Aufgabe2_1_TimeService/TimeService.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Aufgabe3_2_TimeServiceMultithreaded/TimeService.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Aufgabe3_2_TimeServiceMultithreaded/TimeServiceMultithreadedMain.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Aufgabe3_2_TimeServiceMultithreaded/TimeServiceMultithreadedMain.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="115" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
